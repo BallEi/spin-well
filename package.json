@@ -1,0 +1,22 @@
+{
+  "name": "spin-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "antd": "^5.9.2",
+    "eslint": "8.50.0",
+    "eslint-config-next": "13.5.2",
+    "next": "13.5.2",
+    "react": "18.2.0",
+    "react-custom-roulette": "^1.4.1",
+    "react-dom": "18.2.0",
+    "react-wheel-of-prizes": "1.0.8",
+    "sass": "^1.68.0"
+  }
+}
