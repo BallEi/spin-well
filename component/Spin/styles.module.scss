@@ -14,17 +14,23 @@
 }
 
 .mainWheel {
-  width: 450px;
-  height: 450px;
-
-  border-radius: 50%;
   border: 10px solid rgb(234, 140, 68);
   background-color: aliceblue;
 
   overflow: hidden;
   position: relative;
+  border-radius: 50%;
 
   ul {
+    border-radius: 50%;
+    list-style: none;
+    overflow: hidden;
+    transition: cubic-bezier(0.075, 0.8, 0.2, 1) 25s;
+    padding: 0;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    
     li {
       position: absolute;
       overflow: hidden;
@@ -33,10 +39,6 @@
       width: 50%;
       height: 50%;
       transform-origin: 0%  100%;
-
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: 0%;
 
       .textItem {
         position: absolute;
@@ -49,8 +51,11 @@
         padding-top: 10%;
         font-size: 16px;
         font-weight: 500;
-        color: #ffffff;
-        background-color: #ccc;
+        color: #000000;
+      
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: -50px;
         
         b {
           display: inline-block;
@@ -66,6 +71,11 @@
 
 
     }
+  }
+
+  .arrow {
+    position: absolute;
+    top: 0%;
   }
 }
 

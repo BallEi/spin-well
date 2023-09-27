@@ -1,6 +1,5 @@
 import './globals.css'
 import './reset-css.css'
-import 'react-wheel-of-prizes/dist/index.css'
 
 import { Inter } from 'next/font/google'
 
